@@ -9,7 +9,7 @@ package wesposlab;
  * @author Wesley
  */
 public class Customer {
-    
+
     int cusId;
 
     public int getcusId() {
@@ -19,8 +19,4 @@ public class Customer {
     public void setCusId(int CusId) {
         this.cusId = CusId;
     }
-
-    
-
-   
 }

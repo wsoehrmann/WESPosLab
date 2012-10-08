@@ -8,12 +8,12 @@ package wesposlab;
  *
  * @author Wesley
  */
-public class XmasDiscountStrategy implements DiscountStrategy{
-      private final double CHRISTMASDISCOUNT = .50;
-    
+public class XmasDiscountStrategy implements DiscountStrategy {
+
+    private final double CHRISTMASDISCOUNT = .50;
+
     @Override
-    public double getDiscountInDollars(double price){
+    public double getDiscountAmt(double price) {
         return price * CHRISTMASDISCOUNT;
     }
-    
 }

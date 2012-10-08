@@ -4,20 +4,13 @@
  */
 package wesposlab;
 
-
 public class LineItem {
     
     
-     LineItem item = new LineItem(product, qty);
-        addToArray(item);
-        
-         private void addToArray(LineItem item) {
-             
-             
-        LineItem[] tempItems = new LineItem[lineItems.length + 1];
-        System.arraycopy(lineItems, 0, tempItems, 0, lineItems.length);
-        tempItems[lineItems.length] = item;
-        lineItems = tempItems;
-    }
-    }
+    String lineItems;
 
+    public LineItem() {
+    }
+    
+    
+}

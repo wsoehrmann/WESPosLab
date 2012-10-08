@@ -9,7 +9,6 @@ package wesposlab;
  * @author Wesley
  */
 public interface DiscountStrategy {
-    public double getDiscountInDollars(double price);
-       
-   }
 
+    public double getDiscountAmt(double price);
+}

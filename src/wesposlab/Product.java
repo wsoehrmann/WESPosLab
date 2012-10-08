@@ -11,12 +11,18 @@ package wesposlab;
 public class Product {
 
     String prodId;
-    int productPrice;
+    double productPrice;
     int productQuantity;
     String productDiscription;
     DiscountStrategy discountStrategy;
-    
-    
+
+    public Product(String prodId, String productDiscription, double productPrice, DiscountStrategy discountStrategy) {
+        this.prodId = prodId;
+        this.productPrice = productPrice;
+        this.productQuantity = productQuantity;
+        this.productDiscription = productDiscription;
+        this.discountStrategy = discountStrategy;
+    }
 
     public DiscountStrategy getDiscountStrategy() {
         return discountStrategy;

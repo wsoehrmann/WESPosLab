@@ -9,13 +9,11 @@ package wesposlab;
  * @author Wesley
  */
 public class NoDiscountStrategy implements DiscountStrategy {
-    
+
     private final double NODISCOUNT = 0;
-    
+
     @Override
-    public final double getDiscountInDollars(double price){
+    public final double getDiscountAmt(double price) {
         return price * NODISCOUNT;
     }
-       
-   }
-
+}
